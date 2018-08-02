@@ -10,8 +10,8 @@ import warnings
 
 warnings.filterwarnings("ignore")
 import os
-
-file_name = os.open(r'C:\Users\qijianshuma\Desktop\20180620.pdf', os.O_RDWR)
+# 添加你要转换的文件地址
+file_name = os.open(r'C:\XXX\xxx.pdf', os.O_RDWR)
 
 
 def main():
